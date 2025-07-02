@@ -152,7 +152,7 @@ const AddBookPage = () => {
             name="coverImage"
             value={formData.coverImage}
             onChange={handleChange}
-            placeholder="https://example.com/image.jpg"
+            placeholder="https://image@URL.com"
             className={`shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
               errors.coverImage ? 'border-red-500' : 'border-gray-300'
             }`}
