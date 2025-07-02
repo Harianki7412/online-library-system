@@ -45,41 +45,18 @@ Follow these steps to set up and run the project locally:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [YOUR_GITHUB_REPO_LINK_HERE]
+    git clone [`https://github.com/Harianki7412/online-library-system.git`]
     cd online-library-system-tailwind
     ```
 
 2.  **Install Dependencies:**
     ```bash
     npm install
-    # or if you use yarn:
-    # yarn install
     ```
 
 3.  **Start the Development Server:**
     ```bash
     npm start
-    # or if you use yarn:
-    # yarn start
     ```
 
-    This will open the application in your browser at `http://localhost:3000`.
-
-## Project Structure
-
-online-library-system/
-├── public/
-├── src/
-│   ├── components/       // Reusable UI components (Navbar, BookCard)
-│   ├── pages/            // Top-level page components (Home, Browse, Details, Add, 404)
-│   ├── redux/            // Redux store and slices
-│   │   ├── store.js
-│   │   └── bookSlice.js
-│   ├── App.js            // Main application setup and routing
-│   ├── index.js          // React DOM render and Redux Provider
-│   ├── index.css         // Contains Tailwind directives
-│   └── ...
-├── package.json
-├── tailwind.config.js    // Tailwind CSS configuration
-├── postcss.config.js     // PostCSS configuration for Tailwind
-├── README.md
+    This will open the application in your browser at `http://localhost:5173`.
